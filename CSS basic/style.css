@@ -1,0 +1,151 @@
+p
+{
+    color: red;
+    font-size:20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 2em;
+
+}
+h1
+{
+   color: blue;
+   font-size: 20px;
+   font-family: Arial; 
+}
+h2
+{
+    color:#001288;
+    font-size: 20px;
+    font-family: arial;
+    text-align: right;
+    text-decoration: underline;
+}
+.mystyle
+{
+    color: black;
+    background: blue;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.bgstyle
+{
+    background-color: white;
+    background-image: url("../Images/logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.borderstyle
+{
+    /* background: yellow; */
+    /* border-left-style: solid;
+    border-right-style: dashed;
+    border-top-style: double;
+    border-bottom-style: groove;
+    
+    border-left-color: black;
+    border-right-color: green;
+    border-top-color: purple;
+    border-bottom-color: aquamarine;
+
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px; */
+    
+    border: dotted red 10px;
+    border-radius: 100px;
+}
+#para1
+{
+    text-align: right;
+    color: red;
+}
+.divstyle
+{
+   
+    border:groove 10px blue;
+    margin: 50px 70px ;
+    max-width: 900px;
+    
+    padding: 90px;
+    font-size: 30px;
+    outline-style: solid;
+    outline-color: pink;
+    outline-offset: 10px;
+    outline-width: 20px;
+    color: red;
+    text-align: justify;
+    text-decoration: underline;
+}
+.la
+{
+    text-align: left;
+    color: black;
+}
+.ra
+{
+    text-align: right;
+    color: purple;  
+}
+.ca
+{
+    text-align: center;
+    color: green;
+    background-color: yellow;
+}
+/* body > div > p
+{
+    background-color: black;
+}
+p.demo
+{
+    background-color: blue;
+} */
+/* p.demo + p
+{
+    background-color: blue;
+} */
+/* p[class$="d"]
+{
+    background-color:green;
+} */
+div p:nth-child(even)
+{
+    background-color:black;
+}
+.general
+{
+    font-size: 30px;
+}
+.a
+{
+    background-color: green;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 0px;
+    bottom:0px;
+}
+.b  
+{
+    background-color: yellow;
+    position: relative;
+    top: 0px;
+    bottom:0px;
+    width: 250px;
+    height: 450px;
+    
+}
+.c
+{
+    background-color: blue;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    width: 400px;
+    height: 500px;
+}
